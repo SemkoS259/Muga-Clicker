@@ -111,10 +111,10 @@
       border-radius: 4px;
     }
     .control-button-highlight:hover {
-      background: #00ffff26;
+      background: #00000026;
     }
     .control-button-highlight.active {
-      background: #00ffff59;
+      background: #00000059;
     }
     .fullscreen-button {
       background: white;
@@ -221,10 +221,10 @@
       };
 
       scaffolding.setUsername("player####".replace(/#/g, () => Math.floor(Math.random() * 10)));
-      scaffolding.setAccentColor("#00ffff");
+      scaffolding.setAccentColor("#000000");
 
       try {
-        scaffolding.addCloudProvider(new Scaffolding.Cloud.WebSocketProvider(["wss://clouddata.turbowarp.org","wss://clouddata.turbowarp.xyz"], "p4-@Muga Clicker Beta 1.4.sb3"));
+        scaffolding.addCloudProvider(new Scaffolding.Cloud.WebSocketProvider(["wss://clouddata.turbowarp.org","wss://clouddata.turbowarp.xyz"], "p4-@Muga Clicker Beta 1.5.sb3"));
       } catch (error) {
         console.error(error);
       }
